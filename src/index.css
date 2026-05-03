@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  @apply bg-gradient-to-br from-slate-50 via-blue-50/30 to-indigo-50 dark:from-[#060c18] dark:via-blue-950/20 dark:to-[#040812] text-slate-800 dark:text-slate-50 transition-colors duration-300 relative overflow-x-hidden min-h-screen;
+  font-family: 'Kantumruy Pro', 'Poppins', system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Suwannaphum', 'Poppins', system-ui, sans-serif;
+  @apply text-slate-900 dark:text-white;
+}
+
+@utility glass-panel {
+  @apply bg-white/80 dark:bg-slate-900/60 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-2xl p-8 transition-all duration-300 shadow-xl dark:shadow-none hover:-translate-y-1 hover:border-blue-500/50 dark:hover:border-blue-500/50 relative overflow-hidden;
+}
+
+/* Blueprint Grid Background Pattern */
+@utility bg-blueprint {
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(59, 130, 246, 0.05) 1px, transparent 1px), 
+    linear-gradient(to bottom, rgba(59, 130, 246, 0.05) 1px, transparent 1px);
+}
+.dark .bg-blueprint {
+  background-image: 
+    linear-gradient(to right, rgba(59, 130, 246, 0.08) 1px, transparent 1px), 
+    linear-gradient(to bottom, rgba(59, 130, 246, 0.08) 1px, transparent 1px);
+}
