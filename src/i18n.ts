@@ -16,7 +16,8 @@ const resources = {
         "subtitle": "| Mechanical and Industrial Engineering(GIM)",
         "description": "I am a highly motivated fourth-year Mechanical Engineering student at the Institute of Technology of Cambodia (ITC), with a solid foundation in mechanical design, thermodynamics, and manufacturing systems. I am driven by a passion for solving complex engineering challenges and enhancing system performance. Through academic projects and hands-on experience, I have strengthened my analytical abilities and technical competencies. I am dedicated to continuous learning and aspire to contribute to innovative, efficient, and sustainable engineering solutions.",
         "contact_btn": "Contact Me",
-        "resume_btn": "View Resume"
+        "resume_btn": "View Resume",
+        "full_name": "Savean Socheata"
       },
       "about": {
         "title1": "About",
@@ -88,7 +89,8 @@ const resources = {
         "subtitle": "| វិស្វកម្មមេកានិក និងឧស្សាហកម្ម(GIM)",
         "description": "ខ្ញុំជានិស្សិតឆ្នាំទី៤ ផ្នែកវិស្វកម្មមេកានិក ដែលមានការលើកទឹកចិត្តខ្ពស់ នៅវិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា (ITC) ដោយមានមូលដ្ឋានគ្រឹះរឹងមាំលើការរចនាមេកានិក កម្តៅ (thermodynamics) និងប្រព័ន្ធផលិតកម្ម។ ខ្ញុំមានចំណង់ចំណូលចិត្តក្នុងការដោះស្រាយបញ្ហាវិស្វកម្មស្មុគស្មាញ និងពង្រឹងប្រសិទ្ធភាពប្រព័ន្ធ។ តាមរយៈគម្រោងសិក្សា និងបទពិសោធន៍ផ្ទាល់ ខ្ញុំបានពង្រឹងសមត្ថភាពវិភាគ និងជំនាញបច្ចេកទេសរបស់ខ្ញុំ។ ខ្ញុំប្តេជ្ញាបន្តការសិក្សារៀនសូត្រឥតឈប់ឈរ និងប្រាថ្នាចង់ចូលរួមចំណែកដល់ការបង្កើតដំណោះស្រាយវិស្វកម្មប្រកបដោយភាពច្នៃប្រឌិត ប្រសិទ្ធភាព និងនិរន្តរភាព។",
         "contact_btn": "ទាក់ទងមកខ្ញុំ",
-        "resume_btn": "មើលប្រវត្តិរូប"
+        "resume_btn": "មើលប្រវត្តិរូប",
+        "full_name": "សាវាន សុជាតា"
       },
       "about": {
         "title1": "អំពី",

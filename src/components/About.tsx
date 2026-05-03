@@ -55,7 +55,7 @@ const About: React.FC = () => {
               <div className="bg-blue-100 dark:bg-blue-500/10 text-blue-600 dark:text-blue-500 p-3 rounded-lg"><User size={24} /></div>
               <div>
                 <strong className="block text-slate-800 dark:text-slate-200">{t('about.name')}</strong>
-                <span className="text-slate-600 dark:text-slate-400 text-sm">Savean Socheata</span>
+                <span className="text-slate-600 dark:text-slate-400 text-sm">{t('hero.full_name')}</span>
               </div>
             </li>
             <li className="flex items-center gap-4">

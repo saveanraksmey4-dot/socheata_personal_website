@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://socheata-savean.pages.dev/sitemap.xml

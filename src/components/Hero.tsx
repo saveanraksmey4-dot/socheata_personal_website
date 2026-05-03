@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           className="flex-1 text-center md:text-left"
         >
           <h4 className="inline-block text-lg font-medium mb-2 bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent">{t('hero.hello')}</h4>
-          <h1 className="text-5xl md:text-7xl font-bold mb-2 text-slate-900 dark:text-white">Savean Socheata</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-2 text-slate-900 dark:text-white">{t('hero.full_name')}</h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-slate-600 dark:text-slate-400 mb-6">
             {t('hero.role')} <span className="bg-gradient-to-r from-blue-700 to-indigo-700 dark:from-blue-300 dark:to-cyan-300 bg-clip-text text-transparent opacity-90">{t('hero.subtitle')}</span>
           </h2>
